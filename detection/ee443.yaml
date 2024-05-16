@@ -1,4 +1,4 @@
-path: /media/cycyang/sda1/EE443_final/ultralytics_data/ # dataset root dir
+path: /Users/miaonodera/Desktop/ee443/output # dataset root dir
 train: train  # train images (relative to 'path') 
 val: val # val images (relative to 'path') 
 

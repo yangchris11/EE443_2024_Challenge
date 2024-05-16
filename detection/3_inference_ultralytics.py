@@ -2,7 +2,7 @@ import os
 from ultralytics import YOLO
 
 
-raw_data_root = '/media/cycyang/sda1/EE443_final/data'
+raw_data_root = '/Users/miaonodera/Desktop/ee443/data'
 
 W, H = 1920, 1080
 data_list = {
@@ -11,8 +11,8 @@ data_list = {
 sample_rate = 1 # because we want to test on all frames
 vis_flag = True # set to True to save the visualizations
 
-exp_path = '/media/cycyang/sda1/EE443_final/runs/detect/inference'
-model_path = '/media/cycyang/sda1/EE443_final/runs/detect/train/weights/best.pt'
+exp_path = '/Users/miaonodera/Desktop/ee443/EE443_2024_Challenge/runs/detect/inference'
+model_path = '/Users/miaonodera/Desktop/ee443/EE443_2024_Challenge/runs/detect/train/weights/best.pt'
 det_model = YOLO(model_path)
 
 for split in ['test']:
