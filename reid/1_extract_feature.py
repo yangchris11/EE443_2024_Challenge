@@ -44,7 +44,7 @@ for split in ['test']:
         det_txt_path = os.path.join(det_path, f'{folder}.txt')
         print(f"Extracting feature from {det_txt_path}")
 
-        dets = np.genfromtxt(det_txt_path, dtype=str,delimiter=',')[:100]
+        dets = np.genfromtxt(det_txt_path, dtype=str,delimiter=',')
 
         # start extracting frame features
         cur_frame = 0
